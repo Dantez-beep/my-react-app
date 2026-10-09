@@ -66,8 +66,8 @@ function VideoIntro() {
       >
         <div
           style={{
-            width: '352px',
-            height: '352px',
+            width: 'min(352px, 78vw)',
+            height: 'min(352px, 78vw)',
             borderRadius: '9999px',
             padding: '6px',
             background: 'linear-gradient(135deg, #2af598 0%, #2563eb 55%, #8b2af5 100%)',
@@ -95,7 +95,7 @@ function VideoIntro() {
           className="max-w-2xl text-2xl italic font-extrabold text-white sm:text-4xl"
           style={{ marginTop: '16px', textShadow: '0 4px 20px rgba(0,0,0,0.7)' }}
         >
-          "Code the vision. Build the impossible."
+          Code the vision. Build the impossible.
         </p>
       </div>
 
